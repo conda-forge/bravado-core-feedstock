@@ -14,9 +14,8 @@ Summary: Library for adding Swagger support to clients and servers
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/bravado-core-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/bravado-core-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/bravado-core-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/bravado-core-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/bravado-core-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/bravado-core-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/bravado-core-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/bravado-core-feedstock)
 
 Current release info
 ====================
