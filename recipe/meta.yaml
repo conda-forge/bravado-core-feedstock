@@ -1,5 +1,5 @@
 {% set name = "bravado-core" %}
-{% set version = "5.10.2" %}
+{% set version = "5.12.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1a2b1de62659640b879b821a6fe45f448b1eb474d4b618054723ad1dc4535292
+  sha256: 41d0a41107d79cc3d8623ef11db3f1f71e69fc7a7bdc669fea0215ed55d41162
 
 build:
   number: 0
