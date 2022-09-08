@@ -16,32 +16,29 @@ build:
 
 requirements:
   host:
-    - jsonref
-    - jsonschema[format] >=2.5.1
-    - msgpack-python
     - pip
-    - python
-    - python-dateutil
-    - pytz
-    - pyyaml
-    - simplejson
-    - six
-    - swagger-spec-validator >=2.0.1
+    - python >=3.6
   run:
     - jsonref
-    - jsonschema[format] >=2.5.1
-    - msgpack-python
-    - python
+    - jsonschema >=2.5.1
+    - msgpack-python >=0.5.2
+    - requests
+    - python >=3.6
     - python-dateutil
     - pytz
     - pyyaml
     - simplejson
     - six
+    - typing
     - swagger-spec-validator >=2.0.1
 
 test:
   imports:
     - bravado_core
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/Yelp/bravado-core
