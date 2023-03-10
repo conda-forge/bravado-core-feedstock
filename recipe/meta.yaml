@@ -20,7 +20,7 @@ requirements:
     - python >=3.6
   run:
     - jsonref
-    - jsonschema >=2.5.1
+    - jsonschema-with-format >=2.5.1
     - msgpack-python >=0.5.2
     - requests
     - python >=3.6
