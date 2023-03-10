@@ -10,7 +10,7 @@ source:
   sha256: 0da9c6f3814734622a55db3f62d08db6e188b25f3ebd087de370c91afb66a7f4
 
 build:
-  number: 0
+  number: 1
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
   noarch: python
 
@@ -20,7 +20,7 @@ requirements:
     - python >=3.6
   run:
     - jsonref
-    - jsonschema >=2.5.1
+    - jsonschema-with-format >=2.5.1
     - msgpack-python >=0.5.2
     - requests
     - python >=3.6
