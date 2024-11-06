@@ -1,11 +1,11 @@
-About bravado-core
-==================
+About bravado-core-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bravado-core-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Yelp/bravado-core
 
-Package license: BSD
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/bravado-core-feedstock/blob/main/LICENSE.txt)
+Package license: BSD-3-Clause
 
 Summary: Library for adding Swagger support to clients and servers
 
